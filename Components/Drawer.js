@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import Login from '../Screens/Login';
 import PriorityForm from '../Screens/PriorityForm';
+import RegisterForm from '../Screens/RegisterForm';
 
 function LoginScreen() {
   return (
@@ -13,7 +14,7 @@ function LoginScreen() {
 
 function RegisterScreen() {
   return (
-    <registerForm/>
+    <RegisterForm/>
   )
 }
 
